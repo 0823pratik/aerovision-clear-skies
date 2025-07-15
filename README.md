@@ -28,19 +28,22 @@ The system combines **LSTM-based time-series forecasting** with **GIS-based heat
 ## 🧠 Project Structure
 <img width="744" height="516" alt="System Architecture – AeroVision-GGM (Smart Cities AQI Platform) - visual selection" src="https://github.com/user-attachments/assets/8af3332b-218d-4330-a669-9e7d27aa3653" />
 
+```
 aerovision/
 │
-├── app.py # Main Streamlit app
+├── app.py                  # Main Streamlit app
+│
 ├── data/
-│ ├── aqi_data.csv # Hourly PM2.5 dataset
-│ └── sample_coords.csv # Coordinates + PM2.5 for heatmap
+│   ├── aqi_data.csv        # Hourly PM2.5 dataset
+│   └── sample_coords.csv   # Coordinates + PM2.5 for heatmap
 │
 ├── utils/
-│ ├── model.py # LSTM forecasting logic
-│ └── map_plot.py # Folium heatmap rendering
+│   ├── model.py            # LSTM forecasting logic
+│   └── map_plot.py         # Folium heatmap rendering
 │
-├── requirements.txt # Python dependencies
-└── README.md # You are here
+├── requirements.txt        # Python dependencies
+└── README.md               # Project overview and instructions
+```
 
 
 ---
