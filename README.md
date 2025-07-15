@@ -21,6 +21,8 @@ The system combines **LSTM-based time-series forecasting** with **GIS-based heat
 ## 📸 Demo Preview
 
 📦 <img width="1919" height="862" alt="image" src="https://github.com/user-attachments/assets/2f4e0930-643a-4552-8aeb-16ab91ae6d0f" />
+<img width="1445" height="723" alt="image" src="https://github.com/user-attachments/assets/7ec95a8a-aa79-4112-8cc5-d0531bd86a78" />
+
 
 
 ---
@@ -78,6 +80,7 @@ timestamp,pm25
 2025-07-13 00:00,110
 2025-07-13 01:00,112
 ...
+```
 
 ### `data/sample_coords.csv`
 ```csv
@@ -85,24 +88,34 @@ lat,lon,pm25
 28.4595,77.0266,138
 28.4648,77.0291,125
 ...
-### `How to Run Locally`
+```
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
 git clone https://github.com/0823pratik/aerovision-clear-skies.git
 cd aerovision-clear-skies
 pip install -r requirements.txt
-python streamlit run app.py
+streamlit run app.py
+```
 
- ### `Credits`
-This project was submitted to the Clear Skies Challenge 2025, backed by Google, under:
+---
 
-🏙️ Track: Smart Cities
-🏢 City: Gurugram, Haryana
-📌 Problem Statement 2: Predictive AI for Air Quality Management
+## 🎓 Credits
 
-### `Contact`
-Pratik Raj
-IIT Tirupati
-pratik08raj@gmail.com
-ee23b042@iittp.ac.in
+This project was submitted to the **Clear Skies Challenge 2025**, backed by **Google**, under:
 
+- 🏙️ **Track:** Smart Cities  
+- 🏢 **City:** Gurugram, Haryana  
+- 📌 **Problem Statement 2:** Predictive AI for Air Quality Management
 
+---
 
+## 📬 Contact
+
+**Pratik Raj**  
+_IIT Tirupati_  
+📧 pratik08raj@gmail.com  
+📨 ee23b042@iittp.ac.in
